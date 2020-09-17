@@ -105,25 +105,17 @@ client.on('message', msg => {
     msg.reply('Lütfen daha az argo kelime kullanalım.');
   }
   if (msg.content.toLowerCase() === 'gerizekalı') {
-    msg.reply('Lütfen daha az argo kelime kullanalım.');
+    msg.reply('biraz daha az argo kullan.');
   }
   if (msg.content.toLowerCase() === 'aptal') {
-    msg.reply('Lütfen daha az argo kelime kullanalım.');
+    msg.reply('mute mi istiyon?');
   }
   if (msg.content.toLowerCase() === 'öküz') {
-    msg.reply('Lütfen daha az argo kelime kullanalım.');
+    msg.reply('Mute lazımmı?');
   }
   if (msg.content === 'ping') {
     msg.reply('Pong! ping ');
-  }
-  if (msg.content.toLowerCase() === prefix + 'youtube' ) {
-    msg.reply('Bot yapımcısı youtube kanalı - HusooTV')
-  }
-  if (msg.content.toLowerCase() === prefix + 'bot davet' ) {
-    msg.reply('https://discordapp.com/oauth2/authorize?client_id=606930624519077908&scope=bot&permissions=2087971903')
-  }
-  if (msg.content.toLowerCase() === prefix + 'iletişim' ) {
-    msg.reply('Gmail - htanriverdi147@gmail.com')
+ 
   }
 
 });
